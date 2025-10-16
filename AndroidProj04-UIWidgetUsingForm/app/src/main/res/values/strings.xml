@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AndroidProj04-UIWidget-UsingForm</string>
+    <string-array name="cities">
+        <item>Select City</item>
+        <item>Gorakhpur</item>
+        <item>Bansgaon</item>
+        <item>Kauriram</item>
+    </string-array>
+</resources>
