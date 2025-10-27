@@ -5,18 +5,24 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SpinnerDemo"
+    tools:context=".DatePickerDemo1"
     android:orientation="vertical"
     android:gravity="center"
     android:padding="20dp">
 
-    <Spinner
+    <!--<DatePicker
+        android:id="@+id/datapicker_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:datePickerMode="calendar"/>-->
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:entries="@array/cities"
-        android:padding="10dp"
-        android:background="@drawable/spinner_design"
-        android:theme="@style/city_spinner"
-        android:popupBackground="@drawable/spinner_design"/>
+        android:hint="Select Date"
+        android:id="@+id/tvDate"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/calender"
+        android:drawablePadding="10dp"/>
 
 </LinearLayout>

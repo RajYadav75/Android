@@ -10,13 +10,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AndroidProj04UIWidgetUsingForm">
+        android:theme="@style/Theme.AndroidProj05UIWidgetImage">
         <activity
-            android:name=".ToggleBtnSwitchDemo"
-            android:exported="false">
-        </activity>
-        <activity
-            android:name=".SpinnerDemo"
+            android:name=".TimePicker1"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,11 +21,24 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MyForm"
+            android:name=".TimePicker"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".DatePickerDemo2"
             android:exported="false"></activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".DatePickerDemo1"
             android:exported="false"></activity>
+        <activity
+            android:name=".RatingBarDemo"
+            android:exported="false" />
+        <activity
+            android:name=".ImageBtnDemo"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
