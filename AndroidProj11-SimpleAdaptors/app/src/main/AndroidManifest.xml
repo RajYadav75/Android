@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidProj11SimpleAdaptors">
         <activity
-            android:name=".customSimpleAdaptor.CustomActivity"
+            android:name=".searchViewsOne.SearchViewOne"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,9 +21,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".simpleadaptorOne.MainActivityOne"
-            android:exported="false">
+            android:name=".searchviews.SearchViewActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
+        <activity
+            android:name=".customSimpleAdaptor.CustomActivity"
+            android:exported="false"></activity>
+        <activity
+            android:name=".simpleadaptorOne.MainActivityOne"
+            android:exported="false" />
     </application>
 
 </manifest>
