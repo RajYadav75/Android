@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Raj Yadav"
+        android:id="@+id/optionOne"/>
+    <item
+        android:title="Ankita Tiwari"
+        android:id="@+id/optionTwo"/>
+    <item
+        android:title="Deepak Kumar"
+        android:id="@+id/optionThree"/>
+    <item
+        android:title="Pallavi Tripathi"
+        android:id="@+id/optionFour"/>
+
+    <item android:id="@+id/home"
+        android:title="home"
+        android:icon="@drawable/home"
+        app:showAsAction="always"/>
+        <!--
+        android:- if we are using the attribute which is directly provided by sdk then we use android
+        app:- app is used if we are using support library
+        -->
+</menu>
