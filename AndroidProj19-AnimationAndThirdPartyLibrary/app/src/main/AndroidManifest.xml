@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidProj19AnimationAndThirdPartyLibrary">
         <activity
+            android:name=".thirdParty.CircularImage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".batterylayout.BatteryAnimationActivity"
             android:exported="true">
             <intent-filter>
