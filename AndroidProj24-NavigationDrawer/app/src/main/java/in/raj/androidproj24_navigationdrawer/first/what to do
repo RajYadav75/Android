@@ -1,0 +1,8 @@
+1. Remove Action Bar By changing the Theme to NoActionBar
+2. Create Drawer Layout
+3. Create ToolBar
+4. Create Navigation Header
+5. Create Navigation Menu
+6. Create Navigation VIew And Set Header And Menus on it
+7. Get the ids of DrawerLayout and NavigationView
+8. Create ActionBarDrawerToggle
